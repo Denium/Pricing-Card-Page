@@ -1,0 +1,88 @@
+/* Use @import directive to import fonts here */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background-image: linear-gradient(to bottom, #758CFF, #63AEFF);
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+section {
+  background-color: white;
+  text-align: center;
+  width: 85%;
+  height: 74%;
+  border-radius: 8px;
+  
+}
+
+h2 {
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+p {
+  max-width: 370px;
+  text-align: center;
+
+}
+
+
+
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 26px;
+}
+
+
+
+input {
+  width: 70%;
+  height: 35px;
+  border: 1px solid #f0f0f0;
+  border-radius: 5px;
+  
+  outline: rgb(250, 0, 50);
+
+}
+
+textarea {
+  width: 70%;
+  border: solid 1px #f0f0f0;
+  font-family: 'Montserrat', sans-serif;
+  padding-left: 5px;
+  padding-block: 2px;
+  outline: none;
+  border-radius: 5px;
+  
+}
+
+input::placeholder {
+  font-family: 'Montserrat', sans-serif;
+  padding-left: 12px;
+  
+}
+
+
+button {
+  padding: 10px;
+  width: 70%;
+  height: 40px;
+  margin-bottom: 30px;
+  background-image: linear-gradient(to bottom, #758CFF, #63AEFF);
+  border: none;
+  border-radius: 3px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  color: #fff;
+
+}
