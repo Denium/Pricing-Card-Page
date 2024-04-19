@@ -4,27 +4,71 @@
 <head>
   <title>FrontendPro Sandbox</title>
   <meta charset="UTF-8" />
+  <link rel="stylesheet" href="style.css">
   <!-- DO NOT import fonts here. Instead, use the 
   @import directive in the styles.css file. -->
-  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  
-  <section>
-    <h2>Send me a message</h2>
-    <div class="p">
-      <p>Lorem ipsum doloripisicing elit. natuss molestiae quaerate labore magni.</p>
-    </div>
+   <!-- Cabecalho -->
+  <header class="cabecalho">
+    <h5>Your current plan:</h5>
+    <h3>Starter Trial • 500MAUs </h3>
+  </header>
 
-    <div>
-      <input type="text" placeholder="Name">
-      <input type="text"  placeholder="Email adress">
-      <input type="text" placeholder="Subject">
-      <textarea name="message" id="" cols="30" rows="10" placeholder="Message"></textarea>
-      <button>Send</button>
+  <!-- Escolher Plano -->
+
+  <h1>Choose a plan</h1>
+  <div class="escolha__tipo__plano">
+    <p>Billed monthly </p>
+    <div class="liga-desliga"><input type="checkbox" (botão ativar celular) class="liga-desliga__checkbox"
+        id="liga-desliga">
+      <label for="liga-desliga" class="liga-desliga__botao"></label>
+    </div>
+    <span>Billed anually</span>
+  </div>
+
+<!-- Cards -->
+
+  <section class="container__cards">
+    <div class="card">
+      <h2>Starter</h2>
+      <p class="preco">$19</p>
+      <ul class="listas">
+        <li> 500 MAUs</li>
+        <li> 3 projects</li>
+        <li> Unlimited guides</li>
+        <li> Unlimited flows</li>
+        <li> Unlimited branded themes</li>
+        <li> Email support</li>
+      </ul>
+      <button class="escolher__plano ">Choose Plan</button>
     </div>
     
+    <div class="card">
+      <h2>Pro</h2>
+      <p class="preco">$99<span class="month">/month</span></p>
+      <ul class="listas">
+        <li> All starter features, plus;</li>
+        <li> Unlimited projects</li>
+        <li> Unlimited fully customizable themes</li>
+        <li> A dedicated Customer Succes Manager</li>
+      </ul>
+      <button class="escolher__plano btn2">Choose Plan</button>
+    </div>
+
+    <div class="card">
+      <h2>Enterprise</h2>
+      <p class="preco">Let's Talk</p>
+      <ul class="listas">
+        <li> All Pro features</li>
+        <li> Unlimited MAUs</li>
+        <li> Dedicated environment</li>
+        <li> Enterprise account administration</li>
+        <li> Premium support and services</li>
+      </ul>
+      <button class="escolher__plano btn3 ">Contact Us</button>
+    </div>
   </section>
 
   <!-- DON'T remove it -->
